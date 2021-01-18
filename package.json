@@ -5,7 +5,9 @@
   "main": "src/prebid.js",
   "scripts": {
     "test": "gulp test",
-    "lint": "gulp lint"
+    "lint": "gulp lint",
+    "outsider": "gulp build --modules=appnexusBidAdapter,districtmDMXBidAdapter,aolBidAdapter --tag=outsider",
+    "menshumor": "gulp build --modules=aolBidAdapter --tag=menshumor"
   },
   "repository": {
     "type": "git",
