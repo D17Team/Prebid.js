@@ -6,8 +6,11 @@
   "scripts": {
     "test": "gulp test",
     "lint": "gulp lint",
-    "outsider": "gulp build --modules=appnexusBidAdapter,districtmDMXBidAdapter,aolBidAdapter --tag=outsider",
-    "menshumor": "gulp build --modules=aolBidAdapter --tag=menshumor"
+    "outsider": "gulp build --modules=appnexusBidAdapter,districtmDMXBidAdapter,aolBidAdapter,teadsBidAdapter --tag=outsider",
+    "menshumor": "gulp build --modules=aolBidAdapter --tag=menshumor",
+    "kentucky": "gulp build --tag=kentucky",
+    "clemson": "gulp build --tag=clemson",
+    "ohiostate": "gulp build --tag=ohiostate"
   },
   "repository": {
     "type": "git",
