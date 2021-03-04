@@ -6,4 +6,4 @@
 
 ## Menshumor
 
-`gulp build --tag=menshumor`
+`gulp build --tag=menshumor,aolBidAdapter,appnexusBidAdapter`
